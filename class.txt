@@ -6,4 +6,20 @@ public class Math {
 		this.x = x;
 		this.y = y;
 	}
+
+	public int Addition() {
+		return x + y;
+	}
+
+	public int Subtraction() {
+		return x - y
+	}
+
+	public int Multiplication() {
+		return x * y;
+	}
+
+	public int Division() {
+		return x / y;
+	}
 }
