@@ -20,6 +20,7 @@ public class Math {
 	}
 
 	public int Division() {
-		return x / y;
+		if(y != 0)
+		   return x / y;
 	}
 }
